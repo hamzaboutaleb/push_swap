@@ -6,7 +6,7 @@ SRCS := ./operations/push_ops.c ./operations/rev_rotate_ops.c ./operations/rotat
 ./utils/helpers.c ./utils/helpers1.c
 OBJS := $(SRCS:.c=.o)
 
-SRCS_BONUS= ./bonus/main_bonus.c ./gnl/get_next_line_utils.c ./gnl/get_next_line.c
+SRCS_BONUS= ./bonus/main_bonus.c ./gnl/get_next_line_utils.c ./gnl/get_next_line.c ./bonus/checker_bonus.c
 OBJ_BONUS= $(SRCS_BONUS:.c=.o)
 
 NAME=push_swap

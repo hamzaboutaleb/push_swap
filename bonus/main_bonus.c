@@ -6,7 +6,7 @@
 /*   By: hboutale <hboutale@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 10:11:34 by hboutale          #+#    #+#             */
-/*   Updated: 2025/01/29 20:42:28 by hboutale         ###   ########.fr       */
+/*   Updated: 2025/01/29 20:46:12 by hboutale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ static int	init_stacks(t_stacks **stacks, t_stack **instruction)
 		ft_puts(2, "Error");
 		return (0);
 	}
+	return (1);
 }
 
 static void	free_all(t_stacks *stacks, t_stack *instruction)
