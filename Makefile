@@ -22,7 +22,7 @@ clean:
 	rm -rf $(OBJS) $(OBJ_BONUS) main.o ./bonus/main_bonus.o
 
 fclean: clean
-	rm -rf $(NAME)
+	rm -rf $(NAME) checker
 
 re: fclean all
 
